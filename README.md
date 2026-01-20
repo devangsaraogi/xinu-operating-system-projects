@@ -20,7 +20,7 @@ Disk defragmentation utility for Unix-style file systems. Reorganizes fragmented
 
 **Languages:** C
 
-**Core Concepts:** process scheduling algorithms, context switching, virtual memory management, demand paging, page replacement policies, multi-level page tables, inverted page tables, backing store management, TLB management, interrupt handling, file system structures, inode management, block allocation
+**Core Concepts:** low-level kernel programming, system call tracing, process scheduling algorithms, context switching, virtual memory management, demand paging, page replacement policies, multi-level page tables, inverted page tables, backing store management, TLB management, interrupt handling, file system structures, inode management, block allocation
 
 ## Source Code Availability
 
@@ -29,3 +29,9 @@ Complete implementations are maintained in the linked repositories. Each reposit
 ## Acknowledgments
 
 These projects were completed as part of **CSC 501: Operating Systems Principles** at North Carolina State University (Fall 2025), instructed by **Prof. Man-Ki Yoon**. The course provides hands-on experience with operating system internals through the XINU educational operating system.
+
+## Getting Started
+
+### [XINU Kernel Basics](https://github.com/devangsaraogi/xinu-kernel-basics)
+
+Introductory lab covering foundational XINU kernel programming concepts. Implements low-level x86 assembly operations, process stack inspection, and system call tracing infrastructure. This lab established proficiency with the XINU development environment and build system.
